@@ -88,9 +88,9 @@ Displaying dynamic data from APIs
 
 Running side effects in components
 
-Controlling execution using dependency arrays
+Controlling side-effect execution using dependency arrays
 
-Fetching data or updating the DOM on load
+Fetching data or updating the DOM on component load
 
 Cleaning up effects when needed
 
@@ -106,7 +106,7 @@ Enabling smooth page transitions
 
 11. Advanced Routing
 
-Creating dynamic routes using params
+Creating dynamic routes using URL params
 
 Handling nested routes
 
@@ -116,10 +116,10 @@ Structuring complex navigation flows
 
 12. Context API
 
-Sharing data globally across components without prop drilling
+Sharing data globally without prop drilling
 
 Creating and providing context using createContext and Context.Provider
 
-Consuming shared values using useContext
+Consuming shared values with useContext
 
-Managing global state such as user data, theme, or settings
+Managing global state such as user details, theme, or app settings
