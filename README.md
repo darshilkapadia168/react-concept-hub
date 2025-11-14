@@ -4,7 +4,6 @@ A collection of all the React concepts I practiced while learning React.
 This repository contains small, focused examples for each topic — simple, easy to understand, and beginner-friendly.
 
 🧠 Concepts Covered
-
 1. Components
 
 Building UI using reusable functional components
@@ -37,11 +36,11 @@ Handling numbers, strings, arrays, and objects
 
 4. Advanced useState
 
-Updating objects and arrays by creating a new copy instead of mutating state
+Updating objects and arrays immutably
 
-Using functional updates when the new value depends on the previous state
+Using functional updates when the new value depends on previous state
 
-Properly handling nested state by updating each level immutably
+Handling nested state safely
 
 Ensuring React gets a new state reference to trigger re-renders
 
@@ -71,7 +70,7 @@ Saving data in the browser using localStorage
 
 Retrieving stored values when the app loads
 
-Syncing localStorage with component state
+Syncing localStorage with state
 
 Persisting user data across refresh
 
@@ -95,7 +94,7 @@ Fetching data or updating the DOM on load
 
 Cleaning up effects when needed
 
-10. React Router Dom
+10. React Router DOM
 
 Setting up multiple pages in a React app
 
@@ -123,4 +122,4 @@ Creating and providing context using createContext and Context.Provider
 
 Consuming shared values using useContext
 
-Managing global state for themes, user data, or settings
+Managing global state such as user data, theme, or settings
